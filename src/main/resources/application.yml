@@ -1,0 +1,8 @@
+micronaut:
+  security:
+    enabled: true
+    reject-not-found: true
+  server:
+    port: 8080
+    netty:    
+      max-header-size: 1
